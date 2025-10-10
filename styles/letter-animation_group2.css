@@ -1,0 +1,62 @@
+/* Group2 */
+#letter-a1 { left: 16.6%; animation: letter-a1_going 1s ease forwards; }
+#letter-l { left: 5.5%; animation: letter-l_going 1s ease forwards; }
+#letter-v { left: 10.5%; animation: letter-v_going 1s ease forwards; }
+#letter-a2 { left: 45.1%; animation: letter-a2_going 1s ease forwards; }
+#letter-r { left: 22.3%; animation: letter-r_going 1s ease forwards; }
+#letter-e { left: 75.6%; animation: letter-e_going 1s ease forwards; }
+#letter-n { left: 81.8%; animation: letter-n_going 1s ease forwards; }
+#letter-t { left: 87.3%; animation: letter-t_going 1s ease forwards; }
+#letter-o2 { left: 92.8%; animation: letter-o2_going 1s ease forwards; }
+
+
+/* Group2 - Apply Animation */
+.logo__selo-overlay:active ~ .logo__animation .group2 {
+  &#letter-a1 { animation: letter-a1_return 1s ease forwards 0.25s; }
+  &#letter-l { animation: letter-l_return 1s ease forwards 0.25s; }
+  &#letter-v { animation: letter-v_return 1s ease forwards 0.25s; }
+  &#letter-a2 { animation: letter-a2_return 1s ease forwards 0.25s; }
+  &#letter-r { animation: letter-r_return 1s ease forwards 0.25s; }
+  &#letter-e { animation: letter-e_return 1s ease forwards 0.25s; }
+  &#letter-n { animation: letter-n_return 1s ease forwards 0.25s; }
+  &#letter-t { animation: letter-t_return 1s ease forwards 0.25s; }
+  &#letter-o2 { animation: letter-o2_return 1s ease forwards 0.25s; }
+}
+
+/* KeyFrame Animatins ------------------------- */
+
+/* Letter a1 */
+@keyframes letter-a1_going { from { left: 23%; } to { left: 16.6%; } }
+@keyframes letter-a1_return { from { left: 16.6%; } to { left: 23%; } }
+
+/* Letter l */
+@keyframes letter-l_going { from { left: 28.5%; } to { left: 5.5%; } }
+@keyframes letter-l_return { from { left: 5.5%; } to { left: 28.5%; } }
+
+/* Letter v */
+@keyframes letter-v_going { from { left: 33.5%; } to { left: 10.5%; } }
+@keyframes letter-v_return { from { left: 10.5%; } to { left: 33.5%; } }
+
+/* Letter a2 */
+@keyframes letter-a2_going { from { left: 39.5%; } to { left: 45.1%; } }
+@keyframes letter-a2_return { from { left: 45.1%; } to { left: 39.5%; } }
+
+/* Letter r */
+@keyframes letter-r_going { to { left: 22.3%; } from { left: 45.3%; } }
+@keyframes letter-r_return { to { left: 45.3%; } from { left: 22.3%; } }
+
+/* Letter e */
+@keyframes letter-e_going { from { left: 51%; } to { left: 75.6%; } }
+@keyframes letter-e_return { from { left: 75.6%; } to { left: 51%; } }
+
+/* Letter n */
+@keyframes letter-n_going { from { left: 57%; } to { left: 81.8%; } }
+@keyframes letter-n_return { from { left: 81.8%; } to { left: 57%; } }
+
+/* Letter t */
+@keyframes letter-t_going { from { left: 62.5%; } to {left: 87.3%; } }
+@keyframes letter-t_return { from { left: 87.3%; } to { left: 62.5%; } }
+
+/* Letter o */
+@keyframes letter-o2_going { from { left: 68%; } to { left: 92.8%; } }
+@keyframes letter-o2_return { from { left: 92.8%; } to { left: 68%; } }
